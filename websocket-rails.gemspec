@@ -28,6 +28,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency "rake"
   s.add_development_dependency "rspec-rails"
   s.add_development_dependency 'rspec-matchers-matchers'
+  s.add_development_dependency 'minitest-rails'
 
   s.post_install_message = "Welcome to WebsocketRails v#{WebsocketRails::VERSION}!"
 

@@ -15,6 +15,7 @@ require 'websocket-rails'
 # in spec/support/ and its subdirectories.
 Dir["./spec/support/**/*.rb"].each {|f| require f}
 require 'websocket_rails/spec_helpers'
+require 'websocket_rails/test_helpers'
 require 'rspec-matchers-matchers'
 
 RSpec.configure do |config|
